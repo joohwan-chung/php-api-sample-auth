@@ -1,0 +1,248 @@
+CRITICAL - 2023-11-01 02:06:17 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+in APPPATH/Controllers/UserApiController.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/app/Controllers/UserApiController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserApiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserApiController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\UserApiController')
+ 5 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\UserApiController', true)
+ 6 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:08:51 --> Class 'Config\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:09:17 --> Class 'Config\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:10:04 --> Class 'Config\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:10:08 --> Class 'Config\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:10:32 --> Class 'Config\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:12:00 --> Class 'Config\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:12:05 --> Class 'Config\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:12:13 --> Class 'Config\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:12:16 --> Class 'Config\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:21:26 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:21:37 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:22:05 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:22:17 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:28:18 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:30:02 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:30:16 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:38:09 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:38:10 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:38:19 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:38:20 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:38:25 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:38:32 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:39:02 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:48:36 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:48:54 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:48:56 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:48:56 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:48:57 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:48:58 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:48:58 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:58:00 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 05:58:00 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 06:17:31 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 06:18:40 --> Call to a member function getValue() on null
+in APPPATH/Filters/Auth.php on line 30.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('api/read-users', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
+CRITICAL - 2023-11-01 06:19:09 --> Wrong number of segments
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 109.
+ 1 APPPATH/Controllers/UserApiController.php(91): Firebase\JWT\JWT::decode('', Object(Firebase\JWT\Key))
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserApiController->readUser()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/imac-tong/Documents/joohwan/php-api-sample-auth/public/index.php')
